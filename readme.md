@@ -7,14 +7,12 @@
 3. Unzip the template files in _DIR/template_
 4. Create _DIR/slides.html_ (you can change the name of course)
 5. In the HMTL slides, load the following script: 
-
     <code><pre>
     &lt;!-- Load the main script, it will automaticaly load required resources -->
     &lt;script src='template/slides.js'></script>
     </pre></code>
     
 6. Create the _section_ containing your slides:
-
     <code><pre>
     &lt;!-- Slide container, enabling the 'arrow-ubidreams' layout -->
     &lt;section class='slides layout-regular template-arrow-ubidreams'>
