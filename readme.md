@@ -8,12 +8,19 @@
 4. Create _DIR/slides.html_ (you can change the name of course)
 5. In the HMTL slides, load the following script: 
 
-    <script src='template/slides.js'></script>
-	
+    <code><pre>
+    &lt;!-- Load the main script, it will automaticaly load required resources -->
+    &lt;script src='template/slides.js'></script>
+    </pre></code>
+    
 6. Create the _section_ containing your slides:
 
-    <section class='slides layout-regular template-arrow-ubidreams'>
-    </section>	
+    <code><pre>
+    &lt;!-- Slide container, enabling the 'arrow-ubidreams' layout -->
+    &lt;section class='slides layout-regular template-arrow-ubidreams'>
+        <!-- Your slides go here  -->
+    &lt;/section>	
+    </pre></code>
 		
 7. Each _<article>_ created within this section is a slide
 
